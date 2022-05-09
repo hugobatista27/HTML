@@ -81,8 +81,7 @@ h2 {
     padding: 10px 0px 10px 20px;
 }
 
-/* Inglaterra */
-.mainmenubtn {
+.ligas > button {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: none;
@@ -90,160 +89,55 @@ h2 {
     padding:10px;
     margin-top:10px;
 }
-.mainmenubtn:hover {
+.ligas:hover > button {
     background-color: rgb(0, 0, 0);
     color: white;
+    width: 100%;
 }
 
+.child > a:hover {
+    background-color: gray;
+}
 
-.dropdown-child {
+.child {
     display: none;
     background-color: rgb(175, 175, 175);
-    min-width: 200px;
+    min-width: 150px;
 }
-.dropdown-child a {
+
+.child a {
     color: rgb(0, 0, 0);
     padding: 5px 0px 5px 20px;
     text-decoration: none;
     display: block; 
 }
 
-.dropdown-child > a:hover {
-    background-color: gray;
-}
-.dropdown:hover .dropdown-child {
+/* Inglaterra */
+
+#dropdown:hover #dropdown-child {
     display: block;
 }
 
 /* Italia */
-.mainmenubtn-B {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-    padding:10px;
-    margin-top:10px;
-}
-.mainmenubtn-B:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
 
-.dropdown-child-B {
-    display: none;
-    background-color: rgb(175, 175, 175);
-    min-width: 200px;
-}
-.dropdown-child-B a {
-    color: rgb(0, 0, 0);
-    padding: 5px 0px 5px 20px;
-    text-decoration: none;
-    display: block; 
-}
-
-.dropdown-child-B > a:hover {
-    background-color: gray;
-}
-.dropdown-B:hover .dropdown-child-B {
+#dropdown-B:hover #dropdown-child-B {
     display: block;
 }
 
 /* Espanha */
 
-.mainmenubtn-C {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-    padding:10px;
-    margin-top:10px;
-}
-.mainmenubtn-C:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
-.dropdown-child-C {
-    display: none;
-    background-color: rgb(175, 175, 175);
-    min-width: 200px;
-}
-.dropdown-child-C a {
-    color: rgb(0, 0, 0);
-    padding: 5px 0px 5px 20px;
-    text-decoration: none;
-    display: block; 
-}
-
-.dropdown-child-C > a:hover {
-    background-color: gray;
-}
-.dropdown-C:hover .dropdown-child-C {
+#dropdown-C:hover #dropdown-child-C {
     display: block;
 }
 
 /* França */
-.mainmenubtn-D {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-    padding:10px;
-    margin-top:10px;
-}
-.mainmenubtn-D:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
 
-.dropdown-child-D {
-    display: none;
-    background-color: rgb(175, 175, 175);
-    min-width: 200px;
-}
-.dropdown-child-D a {
-    color: rgb(0, 0, 0);
-    padding: 5px 0px 5px 20px;
-    text-decoration: none;
-    display: block; 
-}
-
-.dropdown-child-D > a:hover {
-    background-color: gray;
-}
-.dropdown-D:hover .dropdown-child-D {
+#dropdown-D:hover #dropdown-child-D {
     display: block;
 }
 
 /* Alemanha */
-.mainmenubtn-E {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-    padding:10px;
-    margin-top:10px;
-}
-.mainmenubtn-E:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
 
-.dropdown-child-E {
-    display: none;
-    background-color: rgb(175, 175, 175);
-    min-width: 200px;
-}
-.dropdown-child-E a {
-    color: rgb(0, 0, 0);
-    padding: 5px 0px 5px 20px;
-    text-decoration: none;
-    display: block; 
-}
-
-.dropdown-child-E > a:hover {
-    background-color: gray;
-}
-.dropdown-E:hover .dropdown-child-E {
+#dropdown-E:hover #dropdown-child-E {
     display: block;
 }
