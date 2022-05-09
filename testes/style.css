@@ -62,9 +62,7 @@ div#cabeçalho > ul > li > a {
 }
 
 div#cabeçalho > ul > li:hover {
-    background-color: rgb(61, 61, 61);
-    padding: 10px 10px; 
-    border-radius: 5px; 
+    text-decoration: underline; 
 }
 
 /* menu lateral*/
@@ -101,6 +99,7 @@ h2 {
 
 .child {
     display: none;
+    position: fixed;
     background-color: rgb(175, 175, 175);
     min-width: 150px;
 }
@@ -113,31 +112,32 @@ h2 {
 }
 
 /* Inglaterra */
-
 #dropdown:hover #dropdown-child {
     display: block;
 }
 
 /* Italia */
-
 #dropdown-B:hover #dropdown-child-B {
     display: block;
 }
 
 /* Espanha */
-
 #dropdown-C:hover #dropdown-child-C {
     display: block;
 }
 
 /* França */
-
 #dropdown-D:hover #dropdown-child-D {
     display: block;
 }
 
 /* Alemanha */
-
 #dropdown-E:hover #dropdown-child-E {
     display: block;
+}
+
+.produtos > p {
+    display: inline-block;
+    width: 47%;
+    text-align: center;
 }
