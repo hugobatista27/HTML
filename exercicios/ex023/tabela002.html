@@ -13,6 +13,7 @@
         table {
             border-collapse: collapse;
             width: 400px;
+            position: relative;
         }
 
         caption {
@@ -28,13 +29,23 @@
         }
 
         thead {
+            position: sticky;
+            top: 0;
+        }
+
+        thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: #ddd;
         }
 
         .num {
             text-align: right;
         }
+
     </style>
 </head>
 <body>
@@ -107,5 +118,8 @@
             </tr>
         </tfoot>
     </table>
+    <p style="width: 400px; text-align: justify;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolores modi repellat quos animi quasi numquam, ducimus, pariatur illum laborum, nisi sapiente fugit dolorem! Nihil ipsa quod assumenda! Doloremque quos labore nostrum impedit voluptate fugiat fuga, ut magni tenetur hic incidunt iusto assumenda sunt ex amet eum. Quisquam, at vitae. Optio aut corporis possimus minima voluptatum mollitia, ipsam ullam iure necessitatibus sed perferendis tenetur similique libero, veritatis impedit. Cum temporibus quae libero ut facere perferendis voluptas odio minus voluptates suscipit tenetur, ipsam at rerum? Id asperiores eos doloribus possimus quae. Fugit dolore suscipit voluptatibus possimus. Rerum, eos nemo! Ducimus, rerum voluptatem velit tempore aliquam consectetur aut nobis amet quaerat qui expedita dicta quo ipsa libero earum, soluta ratione quasi eos aperiam totam explicabo veniam deleniti veritatis dolore. Voluptates harum commodi atque asperiores maiores reprehenderit nisi itaque doloribus blanditiis! Incidunt delectus vel illum maiores expedita! Officiis eligendi quaerat architecto quis? Pariatur consequatur quae fuga commodi sequi ipsa, maiores reprehenderit ex voluptas doloremque amet fugit sint vitae obcaecati ipsum repellat cupiditate, possimus optio, earum maxime! Beatae, molestias modi. Temporibus obcaecati suscipit illum, sunt rem molestias ab voluptas perspiciatis ipsam! Deleniti vero commodi sapiente provident eum itaque quae pariatur error voluptatibus sint repudiandae, expedita laudantium magni, quod fuga ducimus? Necessitatibus voluptatum iste nemo eum, temporibus quasi itaque accusamus eos molestiae tempore omnis, quaerat harum blanditiis, vitae debitis mollitia ducimus a ea laborum et impedit. Ipsa aliquam voluptates id ipsum distinctio ullam error tenetur doloremque at qui aperiam tempore voluptate, doloribus odio fugit quam iste saepe ducimus dolore rerum? Iusto sint alias, ea libero impedit numquam illo iure nemo veritatis eius at culpa. Perferendis commodi velit eum dolor, debitis totam doloremque officiis neque deleniti magnam aliquam atque animi quis quibusdam cumque suscipit ut est, aperiam facere inventore. Libero, minima iste facilis saepe aliquam ratione? Maxime, ipsam hic nemo omnis numquam similique debitis aut veniam ipsum, maiores labore tenetur corrupti voluptate, ducimus nisi earum nam praesentium vitae distinctio nobis deleniti velit. Est quis voluptatum quae totam sunt odio veniam libero quidem dolor quasi, id, ex hic facilis aspernatur, incidunt necessitatibus consequatur quo labore? Optio nobis id doloremque dolorem molestiae consequuntur error veritatis quis amet fuga dolorum cum nostrum debitis saepe aut voluptatem ipsum consectetur dolores laudantium, dignissimos aperiam molestias! Repudiandae ipsum quasi fugiat necessitatibus. Repellat optio quaerat blanditiis! Accusamus saepe recusandae ipsam vitae placeat obcaecati. Fugit reprehenderit pariatur, at mollitia delectus
+    </p>
 </body>
 </html>
