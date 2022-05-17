@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 70vh;
+}
+
+.container-header > h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 70px;
+    font-size: 3em;
+}
+
+.container-header > p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 20%;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.container-header > button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.377);
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
+
+main {
+    background-color: lightgray;
+}
+
+.web {
+    display: grid;
+    grid-template-areas: 
+    'x x'
+    'y z';
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.web > h2 {
+    text-align: center;
+    padding: 20px;
+    grid-area: x;
+}
+
+.web > .p1 {
+    grid-area: y;
+    padding: 10px;
+    max-width: 400px;
+    
+}
+
+.p2 {
+    grid-area: z;
+    padding: 10px;
+    max-width: 400px;
+}
