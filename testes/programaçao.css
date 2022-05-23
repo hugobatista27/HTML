@@ -63,6 +63,11 @@ header {
     border: 1px solid lightgray;
 }
 
+.container-header > button:hover {
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+
 main {
     background-color: lightgray;
 }
